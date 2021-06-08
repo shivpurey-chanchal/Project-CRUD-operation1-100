@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CRUD App</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <label for="">Name</label>
+        <input
+          type="text"
+          name=""
+          id="name-input"
+          placeholder="Enter name..." />
+        <button id="add-name-btn" class="green">Add Name</button>
+      </div>
+      <div>
+        <input
+          type="text"
+          name=""
+          id="search-input"
+          placeholder="search by name...." />
+        <button id="search-btn" class="yellow">Search</button>
+      </div>
+    </main>
+      <table id="table">
+        <thead>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>DATE</th>
+          <th>DELETE</th>
+          <th>EDIT</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+    <Section hidden id='update-row'>
+      <label for="">Name</label>
+      <input type="text" id="update-name-input">
+      <button class="" id="update-row-btn">Update</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

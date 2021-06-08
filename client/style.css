@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(233, 233, 233);
+}
+main {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+div {
+  padding: 20px;
+}
+table {
+  margin: 20px auto;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+th,
+td {
+  padding: 5px;
+}
+button{
+  outline: none;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #000;
+  background: palevioletred;
+  padding: 7px 25px;
+}
+button:hover{
+  opacity: .9;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: rgb(138, 138, 0);
+}
+input[type=text]{
+  outline: none;
+  border: none;
+  padding: 5px;
+  background-color: rgb(204, 201, 201);
+}
+input[type=text]:active{
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 5px;
+}
